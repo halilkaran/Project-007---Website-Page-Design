@@ -181,4 +181,33 @@ footer{
 .footer_link:hover {
   color: #f1b8b8;
   transform: translateX(3);
+} 
+
+.body{
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:10rem;
+ 
+}
+
+.para-container{
+  width:10rem;
+  height:10rem;
+  border:5px solid;
+  border-radius:50%;
+   color:#000000;
+}
+
+.para-container p{
+  background-image:url('https://static.wikia.nocookie.net/f05bcfd2-cb01-4918-b55b-2398ade08213/scale-to-width/755');
+  background-size:10rem;
+  background-repeat:no-repeat;
+  background-position:center top;
+  font-weight:bolder;
+  font-family:helvetica;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  
 }
